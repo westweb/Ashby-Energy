@@ -1,0 +1,51 @@
+ul, ol {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+ul#menu-building-regulations {
+  list-style: disc url("images/build-regs2.png");
+  padding: 0 0 0 1em;
+}
+
+ul#menu-epcs {
+  list-style: disc url("images/EPCs2.png");
+  padding: 0 0 0 1em;
+}
+
+ul#menu-environmental-assessments {
+  list-style: disc url("images/environmental2.png");
+  padding: 0 0 0 1em;
+}
+
+ul#menu-consultancy {
+  list-style: disc url("images/consultancy2.png");
+  padding: 0 0 0 1em;
+}
+
+ul#menu-other {
+  list-style: disc url("images/other2.png");
+  padding: 0 0 0 1em;
+}

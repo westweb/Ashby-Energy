@@ -1,0 +1,29 @@
+.widget {
+	margin: 0 0 1.5em;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+}
+
+/* Search widget. */
+.widget_search .search-submit {
+	display: none;
+}
+
+aside#text-5 {
+  width: 90%;
+}
+
+aside#text-6,
+aside#text-7,
+aside#text-8,
+aside#text-9{
+	margin: 0;
+}
+
+#footer-widgets .textwidget img{
+	height: 45px;
+	padding: 0 0.5em;
+}
